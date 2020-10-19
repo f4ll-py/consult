@@ -1,15 +1,14 @@
 # 🔍 Consult 0.3
-> A simple consult system to pull data of CEP and CNPJ.
 
 <img src="https://i.imgur.com/MVrKcaX.png" width = 800>
 
-![Downloads](https://img.shields.io/github/downloads/f4ll-py/consult/total)
+[![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/consult/badge)](https://www.codefactor.io/repository/github/f4ll-py/consult)
 ![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/consult)
 ![Issues](https://img.shields.io/github/issues/f4ll-py/consult)
 ![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/consult)
 ![Followers](https://img.shields.io/github/followers/f4ll-py?label=Follow)
 
-<br><br>
+<br>
 
 ## 🤔 What is Consult?
 Consult is a Python CLI way to get informations of a specific CEP or CNPJ.
