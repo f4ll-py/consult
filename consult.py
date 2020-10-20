@@ -4,7 +4,7 @@
 # Imports
 from requests import get
 from sys import argv
-from modules.ascii import ascii
+from modules.banner import banner
 from rich import print
 
 import argparse
@@ -21,7 +21,7 @@ def clearTerminal():
 def main():
 
     clearTerminal()
-    print(ascii())
+    print(banner())
     print('[bold magenta][1] - CEP\n[2] - CNPJ [/bold magenta]\n')
     user_input = input('[#] - ')
 
