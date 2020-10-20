@@ -1,5 +1,3 @@
-# 🔍 Consult 0.3
-
 <img src="https://i.imgur.com/MVrKcaX.png" width = 800>
 
 [![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/consult/badge)](https://www.codefactor.io/repository/github/f4ll-py/consult)
