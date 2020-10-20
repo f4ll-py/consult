@@ -8,26 +8,26 @@ from modules.ascii import ascii
 from rich import print
 
 import argparse
-import os
+from os import system, name
 import time
 
 
 # Clear the screen
 def clearTerminal():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    system('cls' if name == 'nt' else 'clear')
 
 
 # Main
 def main():
 
     clearTerminal()
-    print(ascii)
+    print(ascii())
     print('[bold magenta][1] - CEP\n[2] - CNPJ [/bold magenta]\n')
     user_input = input('[#] - ')
 
-    if(user_input == '1'):
+    if (user_input == '1'):
         cep_consult()
-    elif(user_input == '2'):
+    elif (user_input == '2'):
         cnpj_consult()
     else:
         print('\n[bold red]~> Invalid option[/bold red]')
@@ -54,7 +54,7 @@ def cep_consult():
         print(f'[bold green]- Streetname ~> {cepResult["logradouro"]} [/bold green]')
         print(separator)
 
-    except:
+    except Exception:
         print("\n[bold red]~> Invalid or non-existent CEP number[/bold red]")
 
 
@@ -70,7 +70,7 @@ def cnpj_consult():
     cnpjResult = cnpjWebsite.json()
 
     try:
-        if(cnpjResult["status"] == "ERROR"):
+        if (cnpjResult["status"] == "ERROR"):
             print("\n[bold red]~> Invalid or non-existent CNPJ number[/bold red]")
         else:
             print('\n' + separator)
@@ -87,9 +87,12 @@ def cnpj_consult():
             print(f'[bold green]- Legal Nature ~> {cnpjResult["natureza_juridica"]} [/bold green]')
             print(separator)
 
-    except:
+    except Exception:
         print("\n[bold red]~> Unexpected error wait some minutes. [/bold red]")
 
 
 # Call main
-main()
+try:
+    main()
+except KeyboardInterrupt:
+    pass
