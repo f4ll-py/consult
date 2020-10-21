@@ -1,10 +1,10 @@
 <img src="https://i.imgur.com/MVrKcaX.png" width = 800>
 
-[![CodeFactor](https://www.codefactor.io/repository/github/f4ll-py/consult/badge)](https://www.codefactor.io/repository/github/f4ll-py/consult)
-![LastCommit](https://img.shields.io/github/last-commit/f4ll-py/consult)
-![Issues](https://img.shields.io/github/issues/f4ll-py/consult)
-![PullRequests](https://img.shields.io/github/issues-pr/f4ll-py/consult)
-![Followers](https://img.shields.io/github/followers/f4ll-py?label=Follow)
+[![CodeFactor](https://www.codefactor.io/repository/github/ff4LL/consult/badge)](https://www.codefactor.io/repository/github/ff4LL/consult)
+![LastCommit](https://img.shields.io/github/last-commit/ff4LL/consult)
+![Issues](https://img.shields.io/github/issues/ff4LL/consult)
+![PullRequests](https://img.shields.io/github/issues-pr/ff4LL/consult)
+![Followers](https://img.shields.io/github/followers/ff4LL?label=Follow)
 
 <br>
 
@@ -15,8 +15,8 @@ Consult is a Python CLI way to get informations of a specific CEP or CNPJ.
 
 ## ☁️ Download
 1. For a more easy download, click in the button `Clone or download` and click in `Download ZIP`
-2. If you want to use **SSH**, you can use `git@github.com:f4ll-py/consult.git`
-3. If you want to use **HTTPS**, you can use `git clone https://github.com/f4ll-py/consult.git` **(recommended)**
+2. If you want to use **SSH**, you can use `git@github.com:ff4LL/consult.git`
+3. If you want to use **HTTPS**, you can use `git clone https://github.com/ff4LL/consult.git` **(recommended)**
 
 <br><br>
 
@@ -31,5 +31,3 @@ Consult is a Python CLI way to get informations of a specific CEP or CNPJ.
 
 ## ⚠️ Warning
 We are not responsable for any malicious use of this tool. You know what you do.
-
-  
