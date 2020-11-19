@@ -1,10 +1,10 @@
 <img src="https://i.imgur.com/MVrKcaX.png" width = 800>
 
-[![CodeFactor](https://www.codefactor.io/repository/github/ff4LL/consult/badge)](https://www.codefactor.io/repository/github/ff4LL/consult)
-![LastCommit](https://img.shields.io/github/last-commit/ff4LL/consult)
-![Issues](https://img.shields.io/github/issues/ff4LL/consult)
-![PullRequests](https://img.shields.io/github/issues-pr/ff4LL/consult)
-![Followers](https://img.shields.io/github/followers/ff4LL?label=Follow)
+[![CodeFactor](https://www.codefactor.io/repository/github/h4lkun1/consult/badge)](https://www.codefactor.io/repository/github/h4lkun1/consult)
+![LastCommit](https://img.shields.io/github/last-commit/h4lkun1/consult)
+![Issues](https://img.shields.io/github/issues/h4lkun1/consult)
+![PullRequests](https://img.shields.io/github/issues-pr/h4lkun1/consult)
+![Followers](https://img.shields.io/github/followers/h4lkun1?label=Follow)
 
 <br>
 
