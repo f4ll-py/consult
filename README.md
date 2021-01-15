@@ -7,8 +7,8 @@ Consult is a Python CLI way to get informations of a specific CEP or CNPJ.
 
 ## ☁️ Download
 1. For a more easy download, click in the button `Clone or download` and click in `Download ZIP`
-2. If you want to use **SSH**, you can use `git@github.com:z3o/consult.git`
-3. If you want to use **HTTPS**, you can use `git clone https://github.com/z3o/consult.git` **(recommended)**
+2. If you want to use **SSH**, you can use `git@github.com:z3ox1s/consult.git`
+3. If you want to use **HTTPS**, you can use `git clone https://github.com/z3ox1s/consult.git` **(recommended)**
 
 <br><br>
 
